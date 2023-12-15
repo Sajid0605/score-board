@@ -3,7 +3,7 @@ import { useState, createRef, useEffect } from "react";
 import { GlobalStyle, UserList, ListWrapper } from "./AppStyle";
 import initialData from "./mockData/db.json";
 import shuffleArray from "./helpers/shuffleArray";
-import Row from "./components/Row";
+import Row from "./components/Row/Row";
 import AnimateRow from "./components/AnimateRow";
 import { IScoreCard } from "./interface";
 
